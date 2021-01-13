@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b2e9fd;
+}
+
+h2 {
+  color: #dc4247;
+  width: 200px;
+  padding-right: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-right: solid rgba(0, 0, 0, 0.363) 1px;
+  -webkit-text-stroke: black 1px;
+}
+
+.header p {
+  color: #50524f;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+#search-form {
+  margin-left: auto;
+  font-size: 1.5em;
+  height: 1.5em;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.dogpic {
+  width: 20vw;
+  height: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(3, 3, 3, 0.829);
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: sticky;
+  top: 0;
+  background-color: #50524f;
+  border: black solid 1px;
+}
+
+button {
+  margin-left: 0px;
+  background-color: rgb(42, 88, 173);
+  color: whitesmoke;
+  border: #b2e9fd, solid, 1px;
+  border-radius: 5px;
+  height: 1.6em;
+  padding: 2px;
+}
