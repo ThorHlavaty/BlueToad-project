@@ -40,6 +40,14 @@ h2 {
   background-color: rgba(3, 3, 3, 0.829);
 }
 
+@media only screen and (max-width: 600px) {
+  .dogpic {
+    width: 80vw;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
 .searchbar {
   display: flex;
   flex-direction: row;
